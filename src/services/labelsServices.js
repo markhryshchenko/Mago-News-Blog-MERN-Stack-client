@@ -1,7 +1,8 @@
 
 import axios from "axios";
 
-const apiUrl = "http://localhost:8080";
+const apiUrl = "https://mago-newsblog-mern-stack-server.netlify.app";
+/* const apiUrl = "http://localhost:8080"; */
 /* const testUrl = 'https://jsonplaceholder.typicode.com/users' */
 
 /* --------==========changes path users !!!!*/

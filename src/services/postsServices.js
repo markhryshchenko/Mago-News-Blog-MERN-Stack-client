@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const apiUrl = "http://localhost:8080";
-
+/* const apiUrl = "http://localhost:8080"; */
+const apiUrl = "https://mago-newsblog-mern-stack-server.netlify.app";
 
 /* --------==========changes path users !!!!*/
 export async function getPosts() {
