@@ -1,52 +1,35 @@
-# Getting Started with Create React App
+# News blog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**demo**
+https://mago-news-blog-mern-stack.netlify.app/
 
-## Available Scripts
+**server**
+https://mago-news-blog-mern-stack-server.onrender.com/
 
-In the project directory, you can run:
+This project use Node.js (Express.js)  for data transfer between frontend and backend. Also, Mongo DB with Mongoose as a database. 
+React with react-router, react hook-forms and Material UI for client side.
+This app is template for news blog, it has ordinary functions for such sites. CRUD operation with posts and labels of posts, add and change images, sort by labels and pagination of posts.
 
-### `npm start`
+You can test the server for get-requests, use the following routes:
+https://mago-news-blog-mern-stack-server.onrender.com/api/posts/
+https://mago-news-blog-mern-stack-server.onrender.com/api/label/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Also, You can watch demo on your local server.
+You should download backend in my repository 
+**Mago-News-Blog-MERN-Stack-server**
+You should run local server and runs **Mago-News-Blog-MERN-Stack-client** and 
+**Mago-News-Blog-MERN-Stack-server** in the development mode.
 
-The page will reload when you make changes.\
+## First step
+### open folder with **Mago-News-Blog-MERN-Stack-server**
+### enter ` npm run dev `
+Open (http:// localhost:8080/) to view it in your browser.
+If server works, it will be ‘it’s works’
+
+## Second step
+### open folder with **Mago-News-Blog-MERN-Stack-client**
+### enter `npm start`
+Runs the app in the development mode.
+Open (http://localhost:3000) to view it in your browser.
+The page will reload when you make changes.
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
